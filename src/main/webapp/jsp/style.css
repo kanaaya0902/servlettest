@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* 全体のフォームを中央に配置するためのスタイル */
+.form-container {
+    width: 50%;
+    margin: auto;
+}
+
+/* 全体のコンテナのスタイル */
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ページタイトルのスタイル */
+.page-title {
+    text-align: center; /* テキストを中央揃えにする */
+    margin-top: 0; /* 上部のマージンを0に設定 */
+    padding-top: 10px; /* 上部のパディングを設定 */
+}
+
+/* コンテンツのスタイル */
+.content {
+    padding: 20px;
+}
+
+/* フォームのスタイル */
+form {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ラベルのスタイル */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* 入力フィールドのスタイル */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* チェックボックスのスタイル */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* 送信ボタンのスタイル */
+input[type="submit"] {
+    width: 100%; /* 幅を100%に設定 */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 送信ボタンのホバースタイル */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* h1要素のスタイル */
+h1 ,h2{
+    text-align: center; /* テキストを中央揃えにする */
+    margin-top: 0; /* 上部のマージンを0に設定 */
+    padding-top: 10px; /* 上部のパディングを設定 */
+}
